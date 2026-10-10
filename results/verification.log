@@ -1,0 +1,25 @@
+==================================
+TEST 1: Optimized INT8 Multiplier
+==================================
+--------------------------------
+PASSED: 65536
+FAILED: 0
+--------------------------------
+ALL 65536 TESTS PASSED
+tb/tb_mul8_csa.sv:49: $finish called at 65536000 (1ps)
+
+==================================
+TEST 2: Optimized Dot Product
+==================================
+Starting 4-lane INT8 dot-product verification...
+--------------------------------------
+Tests passed: 10006
+Tests failed: 0
+Total clock cycles: 10015
+--------------------------------------
+PASS: All 10006 dot products verified!
+tb/tb_dot_product_4lane.sv:144: $finish called at 100150000 (1ps)
+
+==================================
+ALL VERIFICATION TESTS PASSED
+==================================

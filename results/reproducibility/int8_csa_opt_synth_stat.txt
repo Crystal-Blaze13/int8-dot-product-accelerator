@@ -1,0 +1,60 @@
+
+21. Printing statistics.
+
+=== dot_product_4lane ===
+
+        +----------------------------Count including submodules.
+        |        +-------------------Area including submodules.
+        |        |        +----------Local count, excluding submodules.
+        |        |        |        +-Local area, excluding submodules.
+        |        |        |        | 
+     2023        -     2023        - wires
+     2096        -     2096        - wire bits
+      781        -      781        - public wires
+      854        -      854        - public wire bits
+       13        -       13        - ports
+       86        -       86        - port bits
+        -        -        -        - memories
+        -        -        -        - memory bits
+        -        -        -        - processes
+     1570 2.78E+03     1570 2.78E+03 cells
+      244  259.616      244  259.616   AND2_X1
+       25    33.25       25    33.25   AND3_X1
+        1    1.596        1    1.596   AND3_X2
+        7   11.172        7   11.172   AND4_X1
+        7   16.758        7   16.758   AOI211_X2
+        1    2.926        1    2.926   AOI211_X4
+      107  113.848      107  113.848   AOI21_X1
+        1    1.862        1    1.862   AOI21_X2
+        6    9.576        6    9.576   AOI221_X1
+        3    8.778        3    8.778   AOI221_X2
+        2     2.66        2     2.66   AOI22_X1
+      103   82.194      103   82.194   BUF_X1
+        1    1.064        1    1.064   BUF_X2
+        2    3.724        2    3.724   BUF_X4
+        2    1.596        2    1.596   CLKBUF_X1
+        5     5.32        5     5.32   CLKBUF_X2
+      119  538.118      119  538.118   DFF_X1
+      163  693.728      163  693.728   FA_X1
+      177   470.82      177   470.82   HA_X1
+      213  113.316      213  113.316   INV_X1
+       14   26.068       14   26.068   MUX2_X1
+       86   68.628       86   68.628   NAND2_X1
+       14   14.896       14   14.896   NAND3_X1
+        7     9.31        7     9.31   NAND4_X1
+       72   57.456       72   57.456   NOR2_X1
+       20    21.28       20    21.28   NOR3_X1
+        5     6.65        5     6.65   NOR4_X1
+        3    7.182        3    7.182   OAI211_X2
+       80    85.12       80    85.12   OAI21_X1
+        4    6.384        4    6.384   OAI221_X1
+        2    3.724        2    3.724   OAI33_X1
+        6    6.384        6    6.384   OR2_X1
+       34    45.22       34    45.22   OR3_X1
+        1    1.596        1    1.596   OR4_X1
+       26   41.496       26   41.496   XNOR2_X1
+        7   11.172        7   11.172   XOR2_X1
+
+   Chip area for module '\dot_product_4lane': 2784.488000
+     of which used for sequential elements: 538.118000 (19.33%)
+

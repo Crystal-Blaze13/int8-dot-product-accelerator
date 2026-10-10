@@ -1,0 +1,4 @@
+Architecture,Synthesis_Area_um2,Final_Cell_Area_um2,Fmax_MHz,Setup_WNS_ns,Hold_Violations,Final_Routing_Violations
+Baseline,2974.146,3091,524.35,0.09,0,0
+Original_CSA,2793.266,2983,517.87,0.07,0,0
+Optimized_CSA,2784.488,2966,519.87,0.08,0,0
